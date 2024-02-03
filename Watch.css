@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-color: black;
+  top: 150px;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 3px #000;
+}
+
+.container h2 {
+  padding: 15px 0;
+  font-size: 36px;
+}
+
+.container .watch {
+  padding: 30px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container .btn {
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 1px 1px 2px 2px #fff;
+  border: none;
+}
